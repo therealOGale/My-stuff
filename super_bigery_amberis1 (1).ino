@@ -1,7 +1,7 @@
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 
-// Initialize LCD (Check your I2C address: 0x27 or 0x3F)
+// Initialize LCD (0x27 or 0x3F)
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
 // Define pins
